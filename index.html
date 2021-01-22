@@ -7,7 +7,6 @@
   <script src="js/scripts.js"></script>
   <title>Mr-Rogers-Numbers</title>
 </head>
- 
 <body>
   <div class="container">
     <h2>Welcome to Mr. Roboger's Neighborhood!</h2>
@@ -15,24 +14,33 @@
       <p>Please note that any numbers containg the number 1 will be replaced with "Beep!", any numbers containing the number 2 will be replaced with "Boop!" and any numbers containing 3 will be replaced with "Won't you be my neighbor?"</p>
       <p>* These exceptions will happen from the least to most important.The first exception should apply unless the second exception does, and the same with the second and third *</p>
       <div class="form-group">
-      <label for="inputNumber">Enter your number! </label>
-      <input id="inputNumber" class="form-control" type="text">
+        <label for="inputNumber">Enter your number! </label>
+        <input id="inputNumber" class="form-control" type="text">
       </div>
       <button class = "btn btn-danger" type="submit" class="btn">Submit your number!</button>
     </form>
-    <div class="results">
-      <p class="text"></p>
-      <img class="pic" src="img/reverse.gif">
-      <form id="reverse">
-        <div class="form-group">
-        </div>
-        <button class = "btn btn-danger" type="submit" class="btn">Reverse the order!</button>
-      </form>
-      <form id="original">
-        <div class="form-group">
-        </div>
-        <button class = "btn btn-danger" type="submit" class="btn">Change back to original</button>
-      </form>
+    <div class ="row">
+      <div class="col-4">
+
+      <div class="results">
+        <p class="text"></p>
+      </div>
+    </div>
+      <div class="col-4">
+        <form id="original">
+          <div class="form-group">
+          </div>
+          <button id="originalButton" class = "btn btn-danger" type="submit" class="btn">Change back to original</button>
+        </form>
+      </div>
+      <div class="col-4">
+        <div class="reverse">
+        <form id="reverse">
+          <button id="reverseButton" class = "btn btn-danger" type="submit" class="btn">Reverse the order!</button>
+        </form>
+        <img class="pic" src="img/reverse.gif">
+      </div>
+      </div>
     </div>
   </div>
 </body>

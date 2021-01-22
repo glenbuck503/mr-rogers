@@ -41,6 +41,8 @@ $(document).ready(function() {
     console.log(rogersResponse);
     $(".results").hide();
     $(".results").show();
+    $(".reverse").show();
+
     $(".text").html(rogersResponse)
   });
 
@@ -52,6 +54,7 @@ $(document).ready(function() {
     $(".results").hide();
     $(".results").show();
     $(".pic").show();
+    $("#originalButton").show();
     $(".text").html(rogersResponse)
   });
 
