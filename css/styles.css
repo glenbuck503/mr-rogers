@@ -40,10 +40,18 @@ p.text {
   display: block;
   display: none;
 }
+
+.backPic {
+  
+  display: block;
+  display: none;
+}
 #reverseButton {
-  margin-top:10px;
+  margin-top: 10px;
+  
 }
 
 #originalButton {
   display: none;
+  margin-top: 22px;
 }

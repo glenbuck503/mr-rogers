@@ -53,6 +53,7 @@ $(document).ready(function() {
     console.log(rogersResponse);
     $(".results").hide();
     $(".results").show();
+    $(".backPic").hide();
     $(".pic").show();
     $("#originalButton").show();
     $(".text").html(rogersResponse)
@@ -65,6 +66,8 @@ $(document).ready(function() {
     console.log(rogersResponse);
     $(".results").hide();
     $(".results").show();
+    $(".pic").hide();
+    $(".backPic").show();
     $(".text").html(rogersResponse)
   });
 });
