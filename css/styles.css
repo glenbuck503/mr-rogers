@@ -32,12 +32,16 @@ p.text {
 
 .reverse {
   display: none;
+  float:right;
 }
 
 .pic {
   
   display: block;
   display: none;
+}
+#reverseButton {
+  margin-top:10px;
 }
 
 #originalButton {
