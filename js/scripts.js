@@ -53,6 +53,10 @@ $(document).ready(function() {
 
     $(".results").hide();
     $(".results").show();
+    $(".reverse").show();
+    $(".pic").show();
+
+
     $(".text").html(rogersResponse)
   });
 });
