@@ -11,8 +11,12 @@ This application will let a user enter a number. It will then return a range of 
 ### Tests
 
 Describe: neighborhood()
-Test: "It should return an array with a range from o to the user's number"
-Expect(beepBoop(0).toEqual([0]);
+
+Test: "It should return an array with a range from 0 to the user's number"
+Expect(rogers(12).toEqual([12]);
+
+Test: "It should replace all "1's" with the phrase "Beep!" "
+Expect(rogers(1).toEqual([0],["beep]);
 
 ## Setup/Installation Requirements
 
