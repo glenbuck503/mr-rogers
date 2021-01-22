@@ -37,12 +37,12 @@ $(document).ready(function() {
     event.preventDefault();
 
     let inputNumber = parseInt($("input#inputNumber").val());
+    let inputName = $("input#name").val();
+    console.log(inputName)
     let rogersResponse = rogers(inputNumber)
-    console.log(rogersResponse);
     $(".results").hide();
     $(".results").show();
     $(".reverse").show();
-
     $(".text").html(rogersResponse)
   });
 
@@ -50,7 +50,6 @@ $(document).ready(function() {
     event.preventDefault();
     let inputNumber = parseInt($("input#inputNumber").val());
     let rogersResponse = rogersReverse(inputNumber)
-    console.log(rogersResponse);
     $(".results").hide();
     $(".results").show();
     $(".backPic").hide();
@@ -63,7 +62,6 @@ $(document).ready(function() {
     event.preventDefault();
     let inputNumber = parseInt($("input#inputNumber").val());
     let rogersResponse = rogers(inputNumber)
-    console.log(rogersResponse);
     $(".results").hide();
     $(".results").show();
     $(".pic").hide();
