@@ -1,9 +1,13 @@
+
+
+
 function rogers(inputNumber) {
   const numArray = [];
+  let inputName = $("input#name").val();
   for (let i = 0; i <= inputNumber; i++) {
     let number = i.toString();
     if (number.includes(3)) {
-      numArray.push("Won't you be my neighbor?" + ", ")
+      numArray.push("Won't you be my neighbor, " + inputName + "?" + ", ")
     } else if (number.includes(2)) {
       numArray.push("Boop!" + ", ")
     } else if (number.includes(1)) {
