@@ -7,6 +7,11 @@ h2 {
   margin-top: 30px;
 }
 
+p.text {
+  color:black;
+  font-size: 26px;
+}
+
 #rogers {
   margin-top: 80px;
 }
@@ -17,14 +22,8 @@ h2 {
   margin-top: 45px;
   background-size: cover;
 }
-p.text {
-  color:black;
-  font-size: 26px;
+
+.reverse {
+  display: none;
 }
 
-.reverseResults {
-  display: none;
-  margin-top: 45px;
-  font-size: 26px;
-  color:black
-}
