@@ -35,14 +35,11 @@ p.text {
 }
 
 .pic {
+  
+  display: block;
   display: none;
 }
 
 #originalButton {
   display: none;
 }
-
-/* #reverseButton{
-  
-}
- */
