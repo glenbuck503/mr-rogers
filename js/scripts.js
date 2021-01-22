@@ -18,11 +18,11 @@ $(document).ready(function() {
     event.preventDefault();
 
     let inputNumber = parseInt($("input#inputNumber").val());
-    let autoResponse = rogers(inputNumber)
+    let rogersResponse = rogers(inputNumber)
 
-    $(".results").hide();
-    $(".results").show();
-    $(".results").html(autoResponse)
+    console.log(rogersResponse);
+
+    $(".results").html(rogersResponse)
    
 
     
