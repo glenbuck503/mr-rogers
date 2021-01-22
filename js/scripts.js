@@ -54,4 +54,14 @@ $(document).ready(function() {
     $(".pic").show();
     $(".text").html(rogersResponse)
   });
+
+  $("form#original").submit(function() {
+    event.preventDefault();
+    let inputNumber = parseInt($("input#inputNumber").val());
+    let rogersResponse = rogers(inputNumber)
+    console.log(rogersResponse);
+    $(".results").hide();
+    $(".results").show();
+    $(".text").html(rogersResponse)
+  });
 });
