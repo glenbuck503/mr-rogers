@@ -12,7 +12,7 @@ function rogers(inputNumber) {
     }
     return numArray;
     }
-  
+
 $(document).ready(function() {
   $("form#rogers").submit(function() {
     event.preventDefault();
@@ -23,12 +23,5 @@ $(document).ready(function() {
     console.log(rogersResponse);
 
     $(".results").html(rogersResponse)
-   
-
-    
   });
 });
-
-    
-
-    
