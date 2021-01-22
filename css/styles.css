@@ -1,6 +1,14 @@
+body {
+  background-color: #92f7e6;
+}
+
 h2 {
   text-align: center;
   margin-top: 30px;
+}
+
+#rogers {
+  margin-top: 80px;
 }
 
 .results {
@@ -13,4 +21,8 @@ h2 {
 p.text {
   color:black;
   font-size: 26px;
+}
+
+.reverseResults {
+  display: none;
 }

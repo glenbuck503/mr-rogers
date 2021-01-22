@@ -23,9 +23,18 @@ $(document).ready(function() {
 
     let inputNumber = parseInt($("input#inputNumber").val());
     let rogersResponse = rogers(inputNumber)
+    console.log(rogersResponse);
 
     $(".results").hide();
     $(".results").show();
     $(".text").html(rogersResponse)
+  });
+
+  $("form#reverse").submit(function() {
+    event.preventDefault();
+
+    $(".reverseResults").hide();
+    $(".reverseResults").show();
+    $(".reverseText").html(rogersResponse.reverse())
   });
 });
