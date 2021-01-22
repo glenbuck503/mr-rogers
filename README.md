@@ -20,7 +20,7 @@ This application will let a user enter a number. It will then return a range of 
 
 ### Tests
 
-Describe: neighborhood()
+Describe: rogers()
 
 Test: "It should return an array with a range from 0 to the user's number"
 Expect(rogers(12).toEqual([12]);
@@ -71,7 +71,6 @@ For contact support, please email Glen Buck <a href = "mailto: glenbuck@gamil.co
 ### License
 
 222.111.4.5.
-
 <hr>
 
 Copyright (c) 2021 Glen Buck Inc.
