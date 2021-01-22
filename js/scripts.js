@@ -3,12 +3,12 @@ function rogers(inputNumber) {
   for (let i = 0; i <= inputNumber; i++) {
     let number = i.toString();
 
-    if (number.includes(1)) {
-      numArray.push("Beep!")
+    if (number.includes(3)) {
+      numArray.push("Won't you be my neighbor?")
     } else if (number.includes(2)) {
       numArray.push("Boop!" + ", ")
-    } else if (number.includes(3)) {
-      numArray.push("Won't you be my neighbor?")
+    } else if (number.includes(1)) {
+      numArray.push("Beep!")
     } else {
       numArray.push(i + ",")
     }
