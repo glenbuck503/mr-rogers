@@ -26,6 +26,8 @@ $(document).ready(function() {
 
     console.log(rogersResponse);
 
-    $(".results").html(rogersResponse)
+    $(".results").hide();
+    $(".results").show();
+    $(".text").html(rogersResponse)
   });
 });

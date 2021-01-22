@@ -4,6 +4,16 @@ h2 {
 }
 
 .results {
+  display:none;
   text-align: center;
   margin-top: 45px;
+  background-image: url(../img/results.jpg);
+  /* padding : 490px 300px; */
+  background-size: cover;
+  height: 500px;
+  
+}
+
+p.text {
+  color:white;
 }
