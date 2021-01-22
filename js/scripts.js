@@ -5,6 +5,8 @@ function rogers(inputNumber) {
 
     if (number.includes(1)) {
       numArray.push("Beep!")
+    } else if (number.includes(2)) {
+      numArray.push("Boop!" + ", ")
     } else {
       numArray.push(i + ",")
     }
