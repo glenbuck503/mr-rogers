@@ -8,6 +8,12 @@ h2 {
   color:red;
 }
 
+p {
+  margin-top:60px;
+  font-family: monospace;
+  font-size:18px;
+}
+
 p.text {
   color:black;
   font-size: 26px;

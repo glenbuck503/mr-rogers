@@ -51,7 +51,6 @@ $(document).ready(function() {
     console.log(rogersResponse);
     $(".results").hide();
     $(".results").show();
-    // $(".reverse").show();
     $(".pic").show();
     $(".text").html(rogersResponse)
   });
