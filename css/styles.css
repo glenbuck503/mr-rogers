@@ -1,5 +1,5 @@
 body {
-  background-color: #92f7e6;
+  background-color: #f7c2b2;
 }
 
 h2 {
@@ -14,7 +14,7 @@ p.text {
 }
 
 #rogers {
-  margin-top: 80px;
+  margin-top: 60px;
 }
 
 .results {
@@ -25,6 +25,10 @@ p.text {
 }
 
 .reverse {
+  display: none;
+}
+
+.pic {
   display: none;
 }
 

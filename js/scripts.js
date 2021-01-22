@@ -19,7 +19,6 @@ function rogersReverse(inputNumber) {
   const numArray = [];
   for (let i = 0; i <= inputNumber; i++) {
     let number = i.toString();
-
     if (number.includes(3)) {
       numArray.push("Won't you be my neighbor?" + ", ")
     } else if (number.includes(2)) {
@@ -50,13 +49,10 @@ $(document).ready(function() {
     let inputNumber = parseInt($("input#inputNumber").val());
     let rogersResponse = rogersReverse(inputNumber)
     console.log(rogersResponse);
-
     $(".results").hide();
     $(".results").show();
-    $(".reverse").show();
+    // $(".reverse").show();
     $(".pic").show();
-
-
     $(".text").html(rogersResponse)
   });
 });
