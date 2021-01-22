@@ -34,6 +34,11 @@ Expect(rogers(2).toEqual([0],[1],["Boop!"]);
 Test: "It should replace all "3's" with the phrase "Boop!" "
 Expect(rogers(3).toEqual([0],[1],["Boop!"], ["Won't you be my neighbor?"]);
 
+Describe: rogersReverse()
+
+Test: "It should reverse the output"
+Expect(rogers(2).toEqual(["Boop"], ["Beep!], [0]);
+
 <hr>
 
 ## Setup/Installation Requirements
@@ -71,6 +76,7 @@ For contact support, please email Glen Buck <a href = "mailto: glenbuck@gamil.co
 ### License
 
 222.111.4.5.
+
 <hr>
 
 Copyright (c) 2021 Glen Buck Inc.
