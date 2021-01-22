@@ -7,13 +7,10 @@ h2 {
   display:none;
   text-align: center;
   margin-top: 45px;
-  background-image: url(../img/results.jpg);
-  /* padding : 490px 300px; */
   background-size: cover;
-  height: 500px;
-  
+  height: 400px; 
 }
-
 p.text {
-  color:white;
+  color:black;
+  font-size: 26px;
 }
