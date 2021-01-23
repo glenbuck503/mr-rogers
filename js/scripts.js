@@ -1,6 +1,3 @@
-
-
-
 function rogers(inputNumber) {
   const numArray = [];
   let inputName = $("input#name").val();
@@ -43,7 +40,6 @@ $(document).ready(function() {
 
     let inputNumber = parseInt($("input#inputNumber").val());
     let inputName = $("input#name").val();
-    console.log(inputName)
     let rogersResponse = rogers(inputNumber)
     $(".results").hide();
     $(".results").show();
