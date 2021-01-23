@@ -49,7 +49,7 @@ Expect(rogers(2).toEqual(["Boop"], ["Beep!], [0]);
 - Open terminal or bash and get to the directory you want to download the repo to.
 - Type into the terminal "git clone command + v if using Mac or control + v is using a PC" and press enter.
 - Open the file labeled "index.html" in the directory you just downloaded the repo to.
-- To visit the live site at gh-pages, please visit 
+- To visit the live site at gh-pages, please visit http://glenbuck503.github.io/mr-rogers
 <hr>
 
 ## Known Bugs
