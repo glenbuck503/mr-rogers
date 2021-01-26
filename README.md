@@ -29,10 +29,10 @@ Test: "It should replace all "1's" with the phrase "Beep!" "
 Expect(rogers(1).toEqual([0],["Beep"]);
 
 Test: "It should replace all "2's" with the phrase "Boop!" "
-Expect(rogers(2).toEqual([0],[1],["Boop!"]);
+Expect(rogers(2).toEqual([0],["Beep"!],["Boop!"]);
 
 Test: "It should replace all "3's" with the phrase "Boop!" "
-Expect(rogers(3).toEqual([0],[1],["Boop!"], ["Won't you be my neighbor?"]);
+Expect(rogers(3).toEqual([0],["Beep!"],["Boop!"], ["Won't you be my neighbor?"]);
 
 Describe: rogersReverse()
 

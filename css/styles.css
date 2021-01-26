@@ -55,3 +55,8 @@ p.text {
   display: none;
   margin-top: 22px;
 }
+
+
+.blank {
+  display:none;
+}
